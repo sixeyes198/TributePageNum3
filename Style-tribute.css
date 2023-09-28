@@ -1,6 +1,13 @@
 body{
     background-color: black;
 }
+  /* position of the h1 tag */
+
+.toptitle{
+  text-align: center;
+}
+
+/* styling the h1 lenny */
 
 .toptitle b{
     font-family: 'Reenie Beanie', cursive;
@@ -8,11 +15,19 @@ body{
     font-size: 50px;
 }
 
+/* styling & positioning the iframe tag  */
+
+.topvideo{
+  text-align: center;
+}
+/* styling font of the h2 title */
+
 .Discography h2{
     font-family: 'Reenie Beanie', cursive;
     color: #fff;
     font-size: 40px;
 }
+/* changing and styling the image text description */
 
 .desc{
     font-family: 'Reenie Beanie', cursive;
@@ -20,10 +35,13 @@ body{
     font-size: 24px;
 }
 
+/* setting and styling the grid for the album gallery */
+
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    float: right;
     max-width: 400px; /* Adjust the max-width as needed */
     margin: 0 auto;
   }
